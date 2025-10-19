@@ -1,0 +1,17 @@
+[build]
+# IMPORTANTÍSIMO: tu código vive en Fr3d7
+base = "Fr3d7"
+command = "npm ci && npm run build"
+# Cambia según tu herramienta de build:
+#  - CRA (react-scripts): publish = "build"
+#  - Vite: publish = "dist"
+publish = "build"
+
+[build.environment]
+NODE_VERSION = "18"
+
+# SPA redirects (si no usas el archivo _redirects)
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
