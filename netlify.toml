@@ -9,6 +9,7 @@ publish = "build"
 
 [build.environment]
 NODE_VERSION = "18"
+CI = "false"
 
 # SPA redirects (si no usas el archivo _redirects)
 [[redirects]]
