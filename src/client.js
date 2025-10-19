@@ -1,5 +1,4 @@
 // src/client.js
-import { api } from "./client";
 import axios from "axios";
 
 // Vite: import.meta.env.VITE_API_URL
